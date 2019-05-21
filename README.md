@@ -6,8 +6,10 @@ Here is a fix:
 1. Install latest osxfuse:
 https://osxfuse.github.io/
 
-2. Open terminal:<br>
-sudo -s<br>
-cd /Library/Filesystems/transmitdisk.fs/Contents<br>
-mv Extensions E<br>
-ln -s  ../../osxfuse.fs/Contents/Extensions Extensions<br>
+2. Open terminal:
+```
+sudo -s
+cd /Library/Filesystems/transmitdisk.fs/Contents
+mv Extensions E
+ln -s  ../../osxfuse.fs/Contents/Extensions Extensions
+````
